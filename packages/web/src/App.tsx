@@ -2,6 +2,12 @@ import React from 'react';
 
 import './styles/global.css'
 
-const App: React.FC = () => <h1>Hello World</h1>
+import Landing from './pages/Landing'
+
+const App: React.FC = () => {
+  return(
+    <Landing />
+  )
+}
 
 export default App;
